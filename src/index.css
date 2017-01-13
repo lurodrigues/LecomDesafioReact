@@ -1,0 +1,207 @@
+/* ------------------------------------------------------------------------- */
+/* ---- MENU --------------------------------------------------------------- */
+.menu {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background: #34495e;
+}
+.menu .title{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #ffffff;
+    padding: 12px 5px;
+}
+
+.menu > .navbar {
+    background: #2ccd6f;
+    border-color: #2ccd6f;
+    border-radius: 0px;
+}
+
+.menu-item .list-group-item {
+    border: none;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.menu-item .list-group-item:hover, 
+.menu-item .list-group-item:focus,
+.menu-item .list-group-item.active{
+    border: none;
+    background: #233342;
+    color: white;
+} 
+
+.menu-item .list-group-item .glyphicon {
+    margin-right: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.menu-item .list-group-item:hover  .glyphicon,
+.menu-item .list-group-item:focus  .glyphicon,
+.menu-item .list-group-item.active .glyphicon{
+    color: #2ccd6f;
+} 
+
+
+/* ------------------------------------------------------------------------- */
+/* ---- DASHBOARD ---------------------------------------------------------- */
+.dashboard{
+    width: calc(100% - 200px);
+    float: right;
+}
+
+.dashboard > .navbar {
+    background: white;
+    border-color: white;
+    border-radius: 0px;
+    border-bottom: solid 1px #ddd;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* ---- HEADER ------------------------------------------------------------- */
+.header-dash {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #9b9b9c;
+}
+
+.header-dash > .name {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #272727;
+}
+
+.header-dash .dot {
+    margin: 0px 5px;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* ---- TABS --------------------------------------------------------------- */
+.tab-dash { height: 100%; }
+.tab-dash .nav-tabs{ padding: 0px 40px; }
+.tab-dash .nav-tabs > li { text-transform: uppercase;}
+
+.tab-dash .nav-tabs > li > a {
+    font-weight: bolder;
+    color: #272727;
+}
+
+.tab-dash .nav-tabs > li.active > a {
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid #2ccd6f;
+    color: #272727;
+}
+
+.tab-dash .tab-content {
+    background: #ecf0f1;
+    padding: 20px;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* ---- BOX ---------------------------------------------------------------- */
+.box{
+    width: 50%;
+    background: white;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box.course   { color: #e57040; }
+.box.question { color: #844c97; }
+.box.exam     { color: #2ccd6f; }
+
+.box > .num   { font-size: 24px; }
+.box > .title { font-size: 10px; }
+
+
+.box-grafic {
+    background: white;
+    min-height: 240px;
+    padding: 0px;
+}
+
+.box-friends{
+    padding: 0px;
+    border-left: 1px solid #ddd;
+}
+
+.box-friends .title, .box-grafic .title {
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #9b9b9c;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.box-friends .list-group-item {
+    border: none;
+    border-bottom: 2px solid #ddd;
+}
+
+.box-friends .list-group { margin: 0; }
+.box-friends .btn-toolbar { background: white; margin-left: 1px; }
+.box-friends .btn-toolbar > .btn { float: right; }
+
+
+/* ------------------------------------------------------------------------- */
+/* ---- LIST --------------------------------------------------------------- */
+.list .btn{
+    color: #272727;
+}
+
+.list .list-group-item:hover, .list .list-group-item:focus {
+    border-radius: 0px;
+    padding-left: 10px;
+}
+
+.list.course   .list-group-item:hover, .list.course   .list-group-item:focus  { border-left: 4px solid #e57040; }
+.list.question .list-group-item:hover, .list.question .list-group-item:focus  { border-left: 4px solid #844c97; }
+.list.exam     .list-group-item:hover, .list.exam     .list-group-item:focus  { border-left: 4px solid #2ccd6f; }
+
+
+/* ------------------------------------------------------------------------- */
+/* ---- GRID-CONTAINER ----------------------------------------------------- */
+.grid-container {
+    margin-bottom: 20px;
+}
+
+.grid-container .list-group-item {
+    border: none;
+    border-bottom: 2px solid #ddd;
+}
+ 
+.grid-container .list-group { margin: 0; }
+
+.grid-container .btn-toolbar { background: white; margin-left: 1px; }
+.grid-container .btn-toolbar > .btn { float: right; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
